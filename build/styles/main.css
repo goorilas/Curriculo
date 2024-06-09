@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.logoebac {
+  height: 150px;
+  width: 300px;
+  padding: 32px;
+  border: 1px solid #ccc;
+}
+
+.identidade {
+  text-align: center;
+}
+.identidade__linkedin {
+  display: flex;
+  margin: auto;
+}
+.identidade__github {
+  display: flex;
+  margin: auto;
+}
+
+.spanMeioUm {
+  border-right: 2px solid #ccc;
+}
+
+.spanMeioDois {
+  border-left: 2px solid #ccc;
+}
+
+.textVaga {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.cabecalhos {
+  background-color: #ccc;
+  text-align: start;
+}
+
+@media (max-width: 767px) {
+  span {
+    display: none;
+  }
+  img {
+    margin-left: 15px;
+  }
+  .identidade {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  .identidade__linkedin {
+    margin-left: 50px;
+  }
+  .identidade__github {
+    margin-left: 60px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

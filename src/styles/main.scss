@@ -1,0 +1,75 @@
+@use 'variaveis';
+@use 'reset';
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    background-color: variaveis.$bodyColor;
+}
+
+.logoebac {
+    height: 150px;
+    width: 300px;
+    padding: 32px;
+    border: 1px solid variaveis.$corBorda;
+}
+
+.identidade {
+    text-align: center;
+
+    &__linkedin {
+        display: flex;
+        margin: auto;
+    }
+
+    &__github {
+        display: flex;
+        margin: auto;
+    }
+}
+
+.spanMeioUm {
+    border-right: 2px solid variaveis.$corBorda;
+}
+
+.spanMeioDois {
+    border-left: 2px solid variaveis.$corBorda;
+}
+
+.textVaga {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.cabecalhos {
+    background-color: variaveis.$corBorda;
+    text-align: start;
+}
+
+@media (max-width: 767px) {
+
+    span {
+        display: none;
+    }
+
+    img {
+        margin-left: 15px;
+    }
+
+    .identidade {
+        display: block;
+        text-align: center;
+        align-items: center;
+
+        &__linkedin {
+            margin-left: 50px;
+        }
+
+        &__github {
+            margin-left: 60px;
+        }
+
+    }
+    
+}
