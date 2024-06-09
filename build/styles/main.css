@@ -50,6 +50,10 @@
 }
 
 @media (max-width: 767px) {
+  img {
+    display: flex;
+    margin: auto;
+  }
   .identidade {
     display: block;
     text-align: center;
